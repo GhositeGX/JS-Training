@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript in Low-Code Platforms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Learn JavaScript in Low-Code Platforms</h1>
+
+        <!-- Section 1: Custom Business Logic -->
+        <section>
+            <h2>1. Custom Business Logic</h2>
+            <p>Use JavaScript to add custom business logic, like applying discounts based on conditions.</p>
+            <input type="checkbox" id="isPremium" /> Premium Customer
+            <button onclick="applyDiscount()">Apply Discount</button>
+            <p id="discount-result"></p>
+        </section>
+
+        <!-- Section 2: Event Handling -->
+        <section>
+            <h2>2. Event Handling</h2>
+            <p>Handle button clicks and other events using JavaScript.</p>
+            <button id="event-btn">Click Me</button>
+            <p id="event-result"></p>
+        </section>
+
+        <!-- Section 3: Custom UI Components -->
+        <section>
+            <h2>3. Custom UI/UX Components</h2>
+            <p>Use JavaScript to create custom modals or dynamic UI components.</p>
+            <button onclick="openModal()">Open Modal</button>
+            <div id="custom-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal()">&times;</span>
+                    <p>This is a custom modal!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: API Integration -->
+        <section>
+            <h2>4. API Integration</h2>
+            <p>Use JavaScript to fetch data from an external API.</p>
+            <button onclick="fetchApiData()">Fetch Data</button>
+            <pre id="api-result"></pre>
+        </section>
+
+        <!-- Section 5: Data Processing -->
+        <section>
+            <h2>5. Data Processing</h2>
+            <p>Use JavaScript to process and manipulate data.</p>
+            <button onclick="processData()">Process Data</button>
+            <p id="data-result"></p>
+        </section>
+
+        <!-- Section 6: Automating Workflows -->
+        <section>
+            <h2>6. Automating Workflows</h2>
+            <p>Automate workflows using JavaScript, such as sending notifications.</p>
+            <button onclick="checkOrderStatus()">Check Order Status</button>
+            <p id="workflow-result"></p>
+        </section>
+
+        <!-- Section 7: Enhancing Platform Capabilities -->
+        <section>
+            <h2>7. Enhancing Platform Capabilities</h2>
+            <p>Add custom form validation using JavaScript.</p>
+            <input type="text" id="phone-number" placeholder="Enter phone number">
+            <button onclick="validatePhoneNumber()">Validate</button>
+            <p id="validation-result"></p>
+        </section>
+
+        <!-- Section 8: Server-Side Script Execution (Simulated) -->
+        <section>
+            <h2>8. Server-Side Script Execution</h2>
+            <p>Simulate server-side JavaScript for sending emails (using a simple console log).</p>
+            <button onclick="sendConfirmationEmail()">Send Confirmation Email</button>
+            <p id="email-result"></p>
+        </section>
+
+        <!-- Section 9: UI Binding and DOM Manipulation -->
+        <section>
+            <h2>9. UI Binding and DOM Manipulation</h2>
+            <p>Use JavaScript to dynamically update the user interface.</p>
+            <button id="update-button">Update Text</button>
+            <p id="dynamic-output">This text will change!</p>
+        </section>
+
+        <!-- Section 10: Debugging and Testing -->
+        <section>
+            <h2>10. Debugging and Testing</h2>
+            <p>Use JavaScript for debugging and testing purposes.</p>
+            <button onclick="debugData()">Debug Data</button>
+            <pre id="debug-output"></pre>
+        </section>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
